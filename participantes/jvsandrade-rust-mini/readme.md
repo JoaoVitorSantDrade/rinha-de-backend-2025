@@ -1,4 +1,4 @@
-# Tecnologias Utilizadas - Rinha de Backend 2025 (Branch `round_robin`)
+# Tecnologias Utilizadas - Rinha de Backend 2025 ([Branch `main`](https://github.com/JoaoVitorSantDrade/rust-backend-spawn))
 
 Esta documentação detalha as escolhas tecnológicas e a arquitetura implementada para o desafio Rinha de Backend 2025. A seleção de cada componente foi guiada pelos princípios de máxima performance, baixa latência, resiliência e uso eficiente de recursos.
 
