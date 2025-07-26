@@ -44,7 +44,7 @@ services:
       - URL_FALLBACK=http://payment-processor-fallback:8080
       - ROLE=LIDER 
       - AMBIENTE=PROD
-      - NUM_CONSUMER=70
+      - NUM_CONSUMER=80
       - RETRY_DEFAULT_PERCENTAGE=90
 
   # API - Instância 2 (Colaboradora)
@@ -58,7 +58,7 @@ services:
       - URL_FALLBACK=http://payment-processor-fallback:8080
       - ROLE=COLAB 
       - AMBIENTE=PROD
-      - NUM_CONSUMER=70
+      - NUM_CONSUMER=80
       - RETRY_DEFAULT_PERCENTAGE=90
 
   # Fila de Mensagens
