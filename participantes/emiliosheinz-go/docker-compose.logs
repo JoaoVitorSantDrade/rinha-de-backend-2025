@@ -1,52 +1,10 @@
 
- api02 Pulling 
- api01 Pulling 
- 01d036902a3c Already exists 
- 48b560a46bc1 Pulling fs layer 
- faf8c66310c4 Pulling fs layer 
- 01d036902a3c Already exists 
- 48b560a46bc1 Pulling fs layer 
- faf8c66310c4 Pulling fs layer 
- faf8c66310c4 Downloading [>                                                  ]  79.98kB/7.794MB
- faf8c66310c4 Downloading [>                                                  ]  79.98kB/7.794MB
- 48b560a46bc1 Downloading [>                                                  ]  32.77kB/2.554MB
- 48b560a46bc1 Downloading [>                                                  ]  32.77kB/2.554MB
- faf8c66310c4 Downloading [========>                                          ]  1.321MB/7.794MB
- faf8c66310c4 Downloading [========>                                          ]  1.321MB/7.794MB
- 48b560a46bc1 Downloading [==============================================>    ]  2.391MB/2.554MB
- 48b560a46bc1 Downloading [==============================================>    ]  2.391MB/2.554MB
- 48b560a46bc1 Download complete 
- 48b560a46bc1 Download complete 
- 48b560a46bc1 Extracting [>                                                  ]  32.77kB/2.554MB
- 48b560a46bc1 Extracting [>                                                  ]  32.77kB/2.554MB
- faf8c66310c4 Downloading [==========================>                        ]   4.17MB/7.794MB
- faf8c66310c4 Downloading [==========================>                        ]   4.17MB/7.794MB
- faf8c66310c4 Verifying Checksum 
- faf8c66310c4 Download complete 
- faf8c66310c4 Verifying Checksum 
- faf8c66310c4 Download complete 
- 48b560a46bc1 Extracting [==============================================>    ]  2.392MB/2.554MB
- 48b560a46bc1 Extracting [==============================================>    ]  2.392MB/2.554MB
- 48b560a46bc1 Extracting [==================================================>]  2.554MB/2.554MB
- 48b560a46bc1 Extracting [==================================================>]  2.554MB/2.554MB
- 48b560a46bc1 Extracting [==================================================>]  2.554MB/2.554MB
- 48b560a46bc1 Extracting [==================================================>]  2.554MB/2.554MB
- 48b560a46bc1 Pull complete 
- 48b560a46bc1 Pull complete 
- faf8c66310c4 Extracting [>                                                  ]   98.3kB/7.794MB
- faf8c66310c4 Extracting [>                                                  ]   98.3kB/7.794MB
- faf8c66310c4 Extracting [==================================================>]  7.794MB/7.794MB
- faf8c66310c4 Extracting [==================================================>]  7.794MB/7.794MB
- faf8c66310c4 Pull complete 
- faf8c66310c4 Pull complete 
- api02 Pulled 
- api01 Pulled 
  Network emiliosheinz-go_rinha  Creating
  Network emiliosheinz-go_rinha  Created
- Container emiliosheinz-go-postgres-1  Creating
  Container emiliosheinz-go-redis-1  Creating
- Container emiliosheinz-go-postgres-1  Created
+ Container emiliosheinz-go-postgres-1  Creating
  Container emiliosheinz-go-redis-1  Created
+ Container emiliosheinz-go-postgres-1  Created
  Container emiliosheinz-go-api02-1  Creating
  Container emiliosheinz-go-api01-1  Creating
  Container emiliosheinz-go-api02-1  Created
@@ -68,68 +26,68 @@ postgres-1  | creating subdirectories ... ok
 postgres-1  | selecting dynamic shared memory implementation ... posix
 redis-1     | Starting Redis Server
 postgres-1  | selecting default "max_connections" ... 100
-redis-1     | 1:C 25 Jul 2025 12:32:48.282 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-redis-1     | 1:C 25 Jul 2025 12:32:48.282 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-redis-1     | 1:C 25 Jul 2025 12:32:48.282 * Redis version=8.0.3, bits=64, commit=00000000, modified=1, pid=1, just started
-redis-1     | 1:C 25 Jul 2025 12:32:48.282 * Configuration loaded
-redis-1     | 1:M 25 Jul 2025 12:32:48.282 * monotonic clock: POSIX clock_gettime
-redis-1     | 1:M 25 Jul 2025 12:32:48.282 * Running mode=standalone, port=6379.
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> RedisBloom version 8.0.1 (Git=unknown)
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> Registering configuration options: [
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ bf-error-rate       :      0.01 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ bf-initial-size     :       100 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ bf-expansion-factor :         2 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ cf-bucket-size      :         2 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ cf-initial-size     :      1024 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ cf-max-iterations   :        20 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ cf-expansion-factor :         1 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> 	{ cf-max-expansions   :        32 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * <bf> ]
-redis-1     | 1:M 25 Jul 2025 12:32:48.283 * Module 'bf' loaded from /usr/local/lib/redis/modules//redisbloom.so
-redis-1     | 1:M 25 Jul 2025 12:32:48.284 * <search> Redis version found by RedisSearch : 8.0.3 - oss
-redis-1     | 1:M 25 Jul 2025 12:32:48.284 * <search> RediSearch version 8.0.1 (Git=5688fcc)
-redis-1     | 1:M 25 Jul 2025 12:32:48.284 * <search> Low level api version 1 initialized successfully
-redis-1     | 1:M 25 Jul 2025 12:32:48.284 * <search> gc: ON, prefix min length: 2, min word length to stem: 4, prefix max expansions: 200, query timeout (ms): 500, timeout policy: return, cursor read size: 1000, cursor max idle (ms): 300000, max doctable size: 1000000, max number of search results:  1000000, 
-redis-1     | 1:M 25 Jul 2025 12:32:48.284 * <search> Initialized thread pools!
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * <search> Disabled workers threadpool of size 0
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * <search> Subscribe to config changes
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * <search> Enabled role change notification
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * <search> Cluster configuration: AUTO partitions, type: 0, coordinator timeout: 0ms
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * <search> Register write commands
-redis-1     | 1:M 25 Jul 2025 12:32:48.285 * Module 'search' loaded from /usr/local/lib/redis/modules//redisearch.so
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> RedisTimeSeries version 80001, git_sha=577bfa8b5909e7ee572f0b651399be8303dc6641
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> Redis version found by RedisTimeSeries : 8.0.3 - oss
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> Registering configuration options: [
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-compaction-policy   :              }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-num-threads         :            3 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-retention-policy    :            0 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-duplicate-policy    :        block }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-chunk-size-bytes    :         4096 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-encoding            :   compressed }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-ignore-max-time-diff:            0 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> 	{ ts-ignore-max-val-diff :     0.000000 }
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> ]
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * <timeseries> Detected redis oss
-redis-1     | 1:M 25 Jul 2025 12:32:48.286 * Module 'timeseries' loaded from /usr/local/lib/redis/modules//redistimeseries.so
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Created new data type 'ReJSON-RL'
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> version: 80001 git sha: unknown branch: unknown
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Exported RedisJSON_V1 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Exported RedisJSON_V2 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Exported RedisJSON_V3 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Exported RedisJSON_V4 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Exported RedisJSON_V5 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Enabled diskless replication
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <ReJSON> Initialized shared string cache, thread safe: false.
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * <search> Acquired RedisJSON_V5 API
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * Server initialized
-redis-1     | 1:M 25 Jul 2025 12:32:48.287 * Ready to accept connections tcp
 postgres-1  | selecting default "shared_buffers" ... 128MB
+redis-1     | 1:C 26 Jul 2025 20:03:32.850 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1     | 1:C 26 Jul 2025 20:03:32.850 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1     | 1:C 26 Jul 2025 20:03:32.850 * Redis version=8.0.3, bits=64, commit=00000000, modified=1, pid=1, just started
+redis-1     | 1:C 26 Jul 2025 20:03:32.850 * Configuration loaded
+redis-1     | 1:M 26 Jul 2025 20:03:32.850 * monotonic clock: POSIX clock_gettime
+redis-1     | 1:M 26 Jul 2025 20:03:32.851 * Running mode=standalone, port=6379.
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> RedisBloom version 8.0.1 (Git=unknown)
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> Registering configuration options: [
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ bf-error-rate       :      0.01 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ bf-initial-size     :       100 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ bf-expansion-factor :         2 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ cf-bucket-size      :         2 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ cf-initial-size     :      1024 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ cf-max-iterations   :        20 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ cf-expansion-factor :         1 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> 	{ cf-max-expansions   :        32 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.852 * <bf> ]
+redis-1     | 1:M 26 Jul 2025 20:03:32.853 * Module 'bf' loaded from /usr/local/lib/redis/modules//redisbloom.so
+redis-1     | 1:M 26 Jul 2025 20:03:32.893 * <search> Redis version found by RedisSearch : 8.0.3 - oss
+redis-1     | 1:M 26 Jul 2025 20:03:32.893 * <search> RediSearch version 8.0.1 (Git=5688fcc)
+redis-1     | 1:M 26 Jul 2025 20:03:32.893 * <search> Low level api version 1 initialized successfully
+redis-1     | 1:M 26 Jul 2025 20:03:32.893 * <search> gc: ON, prefix min length: 2, min word length to stem: 4, prefix max expansions: 200, query timeout (ms): 500, timeout policy: return, cursor read size: 1000, cursor max idle (ms): 300000, max doctable size: 1000000, max number of search results:  1000000, 
+redis-1     | 1:M 26 Jul 2025 20:03:32.894 * <search> Initialized thread pools!
+redis-1     | 1:M 26 Jul 2025 20:03:32.894 * <search> Disabled workers threadpool of size 0
+redis-1     | 1:M 26 Jul 2025 20:03:32.894 * <search> Subscribe to config changes
+redis-1     | 1:M 26 Jul 2025 20:03:32.894 * <search> Enabled role change notification
+redis-1     | 1:M 26 Jul 2025 20:03:32.894 * <search> Cluster configuration: AUTO partitions, type: 0, coordinator timeout: 0ms
+redis-1     | 1:M 26 Jul 2025 20:03:32.895 * <search> Register write commands
+redis-1     | 1:M 26 Jul 2025 20:03:32.895 * Module 'search' loaded from /usr/local/lib/redis/modules//redisearch.so
+redis-1     | 1:M 26 Jul 2025 20:03:32.896 * <timeseries> RedisTimeSeries version 80001, git_sha=577bfa8b5909e7ee572f0b651399be8303dc6641
+redis-1     | 1:M 26 Jul 2025 20:03:32.896 * <timeseries> Redis version found by RedisTimeSeries : 8.0.3 - oss
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> Registering configuration options: [
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-compaction-policy   :              }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-num-threads         :            3 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-retention-policy    :            0 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-duplicate-policy    :        block }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-chunk-size-bytes    :         4096 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-encoding            :   compressed }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-ignore-max-time-diff:            0 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> 	{ ts-ignore-max-val-diff :     0.000000 }
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> ]
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * <timeseries> Detected redis oss
+redis-1     | 1:M 26 Jul 2025 20:03:32.897 * Module 'timeseries' loaded from /usr/local/lib/redis/modules//redistimeseries.so
+redis-1     | 1:M 26 Jul 2025 20:03:32.921 * <ReJSON> Created new data type 'ReJSON-RL'
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> version: 80001 git sha: unknown branch: unknown
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Exported RedisJSON_V1 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Exported RedisJSON_V2 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Exported RedisJSON_V3 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Exported RedisJSON_V4 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Exported RedisJSON_V5 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Enabled diskless replication
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <ReJSON> Initialized shared string cache, thread safe: false.
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * Module 'ReJSON' loaded from /usr/local/lib/redis/modules//rejson.so
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * <search> Acquired RedisJSON_V5 API
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * Server initialized
+redis-1     | 1:M 26 Jul 2025 20:03:32.936 * Ready to accept connections tcp
 postgres-1  | selecting default time zone ... UTC
 postgres-1  | creating configuration files ... ok
 postgres-1  | running bootstrap script ... ok
 postgres-1  | sh: locale: not found
-postgres-1  | 2025-07-25 12:32:50.793 UTC [35] WARNING:  no usable system locales were found
+postgres-1  | 2025-07-26 20:03:35.496 UTC [35] WARNING:  no usable system locales were found
 postgres-1  | performing post-bootstrap initialization ... ok
 postgres-1  | syncing data to disk ... ok
 postgres-1  | 
@@ -140,10 +98,10 @@ postgres-1  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
 postgres-1  | 
 postgres-1  | initdb: warning: enabling "trust" authentication for local connections
 postgres-1  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
-postgres-1  | waiting for server to start....2025-07-25 12:32:54.085 UTC [54] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
-postgres-1  | 2025-07-25 12:32:54.094 UTC [54] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-postgres-1  | 2025-07-25 12:32:54.114 UTC [57] LOG:  database system was shut down at 2025-07-25 12:32:53 UTC
-postgres-1  | 2025-07-25 12:32:54.140 UTC [54] LOG:  database system is ready to accept connections
+postgres-1  | waiting for server to start....2025-07-26 20:03:38.784 UTC [51] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+postgres-1  | 2025-07-26 20:03:38.791 UTC [51] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2025-07-26 20:03:38.811 UTC [54] LOG:  database system was shut down at 2025-07-26 20:03:38 UTC
+postgres-1  | 2025-07-26 20:03:38.842 UTC [51] LOG:  database system is ready to accept connections
 postgres-1  |  done
 postgres-1  | server started
 postgres-1  | CREATE DATABASE
@@ -159,37 +117,38 @@ postgres-1  | CREATE INDEX
 postgres-1  | CREATE INDEX
 postgres-1  | 
 postgres-1  | 
-postgres-1  | waiting for server to shut down....2025-07-25 12:32:54.687 UTC [54] LOG:  received fast shutdown request
-postgres-1  | 2025-07-25 12:32:54.693 UTC [54] LOG:  aborting any active transactions
-postgres-1  | 2025-07-25 12:32:54.781 UTC [54] LOG:  background worker "logical replication launcher" (PID 60) exited with exit code 1
-postgres-1  | 2025-07-25 12:32:54.784 UTC [55] LOG:  shutting down
-postgres-1  | 2025-07-25 12:32:54.791 UTC [55] LOG:  checkpoint starting: shutdown immediate
-postgres-1  | 2025-07-25 12:32:54.887 UTC [75] FATAL:  the database system is shutting down
-postgres-1  | 2025-07-25 12:32:55.021 UTC [55] LOG:  checkpoint complete: wrote 937 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.082 s, sync=0.123 s, total=0.238 s; sync files=309, longest=0.042 s, average=0.001 s; distance=4289 kB, estimate=4289 kB; lsn=0/191D740, redo lsn=0/191D740
-postgres-1  | 2025-07-25 12:32:55.030 UTC [54] LOG:  database system is shut down
+postgres-1  | waiting for server to shut down....2025-07-26 20:03:39.610 UTC [51] LOG:  received fast shutdown request
+postgres-1  | 2025-07-26 20:03:39.616 UTC [51] LOG:  aborting any active transactions
+postgres-1  | 2025-07-26 20:03:39.684 UTC [51] LOG:  background worker "logical replication launcher" (PID 57) exited with exit code 1
+postgres-1  | 2025-07-26 20:03:39.684 UTC [52] LOG:  shutting down
+postgres-1  | 2025-07-26 20:03:39.693 UTC [52] LOG:  checkpoint starting: shutdown immediate
+postgres-1  | 2025-07-26 20:03:39.957 UTC [52] LOG:  checkpoint complete: wrote 937 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.067 s, sync=0.163 s, total=0.274 s; sync files=309, longest=0.024 s, average=0.001 s; distance=4289 kB, estimate=4289 kB; lsn=0/191D740, redo lsn=0/191D740
+postgres-1  | 2025-07-26 20:03:39.967 UTC [51] LOG:  database system is shut down
 postgres-1  |  done
 postgres-1  | server stopped
 postgres-1  | 
 postgres-1  | PostgreSQL init process complete; ready for start up.
 postgres-1  | 
-postgres-1  | 2025-07-25 12:32:55.185 UTC [1] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
-postgres-1  | 2025-07-25 12:32:55.185 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-postgres-1  | 2025-07-25 12:32:55.185 UTC [1] LOG:  listening on IPv6 address "::", port 5432
-postgres-1  | 2025-07-25 12:32:55.203 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-postgres-1  | 2025-07-25 12:32:55.220 UTC [79] LOG:  database system was shut down at 2025-07-25 12:32:55 UTC
-postgres-1  | 2025-07-25 12:32:55.241 UTC [1] LOG:  database system is ready to accept connections
-api01-1     | 2025/07/25 12:32:57 Configuration initialized successfully
+api01-1     | 2025/07/26 20:03:40 Configuration initialized successfully
+api01-1     | 2025/07/26 20:03:40 Attempt 1/10: Failed to ping database: dial tcp 172.20.0.2:5432: connect: connection refused
+api02-1     | 2025/07/26 20:03:40 Configuration initialized successfully
+api02-1     | 2025/07/26 20:03:40 Attempt 1/10: Failed to ping database: dial tcp 172.20.0.2:5432: connect: connection refused
+postgres-1  | 2025-07-26 20:03:40.093 UTC [1] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+postgres-1  | 2025-07-26 20:03:40.093 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-1  | 2025-07-26 20:03:40.093 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-1  | 2025-07-26 20:03:40.109 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2025-07-26 20:03:40.125 UTC [76] LOG:  database system was shut down at 2025-07-26 20:03:39 UTC
+postgres-1  | 2025-07-26 20:03:40.136 UTC [1] LOG:  database system is ready to accept connections
 api01-1     | Database connection established successfully
-api01-1     | 2025/07/25 12:32:57 Default health status initialized for default: &{Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:32:57 Default health status initialized for fallback: &{Failing:false MinResponseTime:0}
-api01-1     | asynq: pid=1 2025/07/25 12:32:57.464140 INFO: Starting processing
-api01-1     | asynq: pid=1 2025/07/25 12:32:57.464168 INFO: Send signal TSTP to stop processing new tasks
-api01-1     | asynq: pid=1 2025/07/25 12:32:57.464172 INFO: Send signal TERM or INT to terminate the process
-api02-1     | 2025/07/25 12:32:57 Configuration initialized successfully
+api01-1     | 2025/07/26 20:03:42 Default health status initialized for default: &{Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:03:42 Default health status initialized for fallback: &{Failing:false MinResponseTime:0}
+api01-1     | asynq: pid=1 2025/07/26 20:03:42.062970 INFO: Starting processing
+api01-1     | asynq: pid=1 2025/07/26 20:03:42.063008 INFO: Send signal TSTP to stop processing new tasks
+api01-1     | asynq: pid=1 2025/07/26 20:03:42.063013 INFO: Send signal TERM or INT to terminate the process
 api02-1     | Database connection established successfully
-api02-1     | asynq: pid=1 2025/07/25 12:32:57.492508 INFO: Starting processing
-api02-1     | asynq: pid=1 2025/07/25 12:32:57.492529 INFO: Send signal TSTP to stop processing new tasks
-api02-1     | asynq: pid=1 2025/07/25 12:32:57.492531 INFO: Send signal TERM or INT to terminate the process
+api02-1     | asynq: pid=1 2025/07/26 20:03:42.070278 INFO: Starting processing
+api02-1     | asynq: pid=1 2025/07/26 20:03:42.070298 INFO: Send signal TSTP to stop processing new tasks
+api02-1     | asynq: pid=1 2025/07/26 20:03:42.070302 INFO: Send signal TERM or INT to terminate the process
 nginx-1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
 nginx-1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
 nginx-1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
@@ -199,213 +158,200 @@ nginx-1     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-reso
 nginx-1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
 nginx-1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
 nginx-1     | /docker-entrypoint.sh: Configuration complete; ready for start up
-api01-1     | 2025/07/25 12:33:07 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:07 Not the leader.
-api01-1     | 2025/07/25 12:33:12 Health check for default OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:12 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:17 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:17 Not the leader.
-api01-1     | 2025/07/25 12:33:17 Health check for default OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:17 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:22 Health check for default OK: {Failing:false MinResponseTime:100}
-api01-1     | 2025/07/25 12:33:22 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:27 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:27 Not the leader.
-api01-1     | 2025/07/25 12:33:27 Health check for default OK: {Failing:false MinResponseTime:100}
-api01-1     | 2025/07/25 12:33:27 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:32 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:33:32 Health check for default OK: {Failing:true MinResponseTime:100}
-api01-1     | 2025/07/25 12:33:37 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:37 Not the leader.
-api01-1     | 2025/07/25 12:33:37 Health check for default OK: {Failing:true MinResponseTime:100}
-api01-1     | 2025/07/25 12:33:37 Health check for fallback OK: {Failing:false MinResponseTime:0}
-api02-1     | 2025/07/25 12:33:41 Setting fallback as failing
-api02-1     | 2025/07/25 12:33:41 Setting fallback as failing
-api02-1     | 2025/07/25 12:33:41 Setting fallback as failing
-api01-1     | 2025/07/25 12:33:42 Health check for default OK: {Failing:true MinResponseTime:2000}
-api01-1     | 2025/07/25 12:33:42 Health check for fallback OK: {Failing:true MinResponseTime:1000}
-api01-1     | 2025/07/25 12:33:47 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:47 Not the leader.
-api01-1     | 2025/07/25 12:33:47 Health check for default OK: {Failing:true MinResponseTime:2000}
-api01-1     | 2025/07/25 12:33:48 Health check for fallback OK: {Failing:true MinResponseTime:1000}
-api01-1     | 2025/07/25 12:33:52 Health check for default OK: {Failing:false MinResponseTime:20}
-api01-1     | 2025/07/25 12:33:53 Health check for fallback OK: {Failing:false MinResponseTime:20}
-api01-1     | 2025/07/25 12:33:57 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:33:57 Not the leader.
-api01-1     | 2025/07/25 12:33:57 Health check for default OK: {Failing:false MinResponseTime:20}
-api01-1     | 2025/07/25 12:33:58 Health check for fallback OK: {Failing:false MinResponseTime:20}
-api02-1     | asynq: pid=1 2025/07/25 12:34:01.990844 WARN: Could not remove task id=4f15168b-f0e3-4c58-833e-4aa0ca6980c1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:01.990911 WARN: Could not remove task id=4b2f9faa-62d6-4b6c-a7ef-e8d73c20c9b1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:01.990947 WARN: Could not remove task id=891c1da8-7065-4f03-a6a5-d42304e168d1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:01.998193 WARN: Could not remove task id=f5a809a5-b787-4ea4-8aa5-b166405ae3b6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:01.998871 WARN: Could not remove task id=2229426b-ebb7-4036-b393-a47da273e3c5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:02.085442 WARN: Could not remove task id=deff0693-acd0-48ed-8a36-6f265b946890 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:02.085626 WARN: Could not remove task id=f76496ff-83cf-4477-aeea-a2f46eaba9a6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:02.085848 WARN: Could not remove task id=bf645186-ac3a-44ec-ac8c-78a875925326 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:02.085867 WARN: Could not remove task id=acbca5cc-5d91-48da-aa70-0bbd483803d1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:02.085303 WARN: Could not remove task id=342a878a-9968-4678-8551-45aeb7ca60d9 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:02.086053 WARN: Could not remove task id=dda8f4e0-94f3-47cb-a078-d9d42a8418a3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | 2025/07/25 12:34:03 Health check for fallback OK: {Failing:false MinResponseTime:5000}
-api01-1     | 2025/07/25 12:34:03 Health check for default OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:34:07 Error retrieving health for default: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.235634 ERROR: Dequeue error: UNKNOWN: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.237205 WARN: Could not remove task id=33434e2d-72e8-454c-8d99-1b6f51c869ba type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.242922 WARN: Could not remove task id=06f4d8c0-f0eb-46e3-aa20-f754955a9cb4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.251661 WARN: Could not remove task id=c7ee8f52-4b62-471c-8332-8cde8e4b3294 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.251661 WARN: Could not remove task id=fa236e40-49c3-4ba3-8c46-af81da686d5c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.252039 WARN: Could not remove task id=8991aff9-eb83-40f2-820a-9266a8a83ca3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.253522 WARN: Could not remove task id=4d102dd4-9d41-4b87-b914-11af6f2bfa16 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.253648 WARN: Could not remove task id=e94f4c0d-a5a4-4138-925b-a2443337169c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.253872 ERROR: Dequeue error: UNKNOWN: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.254159 WARN: Could not remove task id=c2d25951-e987-44f8-899b-7da44e429dfd type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.254289 WARN: Could not remove task id=e998e36e-ba68-45e6-9b3d-d21e5e9abcce type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.254383 WARN: Could not remove task id=702b3664-7def-4e70-8900-a218e024973a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.255119 WARN: Could not remove task id=492c3534-e565-4881-ba82-567088a31c72 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.255312 WARN: Could not remove task id=4a70ecd1-8b8e-4ae0-bb75-e7443e0787ef type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.255495 WARN: Could not remove task id=1e0a1abb-8c1f-4ca9-b790-5298125d4b1c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.256726 WARN: Could not remove task id=d2500a7e-9310-4418-8053-ef5c356c2c62 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.256984 WARN: Could not remove task id=e8f3c463-829e-40b6-aa11-8c43d1c7b3ed type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | 2025/07/25 12:34:07 Error retrieving health for default: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.257422 WARN: Could not remove task id=4054c3a0-a63f-4e5a-9ae8-af285a190346 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.257902 WARN: Could not remove task id=96b49485-067b-4ffe-b88d-839d8bd3c943 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.258101 WARN: Could not remove task id=3ca1ee02-4a77-479f-8d67-798631c3eb5d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.258857 WARN: Could not remove task id=d07c7661-cb6b-4b80-b7d8-32a916cf5f5c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | 2025/07/25 12:34:07 Error retrieving health for fallback: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.259425 WARN: Could not remove task id=c78c77a7-f5b5-48e0-bcab-558ed44eb63b type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.261152 WARN: Could not remove task id=76802505-9785-4e71-accf-ea711e58d12d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.263870 WARN: Could not remove task id=79d18869-73a3-40d8-8c57-aeeb7569481d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.264048 WARN: Could not remove task id=200c5612-368d-4852-880b-574bef0bff04 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.267297 WARN: Could not remove task id=e5ea2f1d-6de0-496b-8cce-8b229df5c299 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.269231 WARN: Could not remove task id=36ccb276-9fe4-426e-9b13-5d64192d7598 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.270420 WARN: Could not remove task id=e6bc3bd7-24a3-427e-a090-2c72ea0eaad7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.274567 WARN: Could not remove task id=ade3ba73-d401-4c91-a10a-142d2a41086f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.275836 WARN: Could not remove task id=4bf03dad-be50-4b79-be92-819c353858e2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.279682 WARN: Could not remove task id=c2c93ca4-d763-46b6-bddd-dffb4ef940eb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.282401 WARN: Could not remove task id=e65a07e6-c9ea-4ade-917b-74e9f8f05790 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.282880 WARN: Could not remove task id=09557550-d8d7-4d64-a268-0ac142d77373 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.282986 WARN: Could not remove task id=f5a10519-b3df-4dd8-a383-7f88dd209128 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.283024 WARN: Could not remove task id=464c6349-d454-4a88-a5a2-4423af8ea2ef type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.283069 WARN: Could not remove task id=8561597b-6f43-4cd3-9ebf-788d56a93904 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.282773 WARN: Could not remove task id=b4f8d828-d322-494d-9a98-f10b9ed6dfdf type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.283001 WARN: Could not remove task id=d1025cbc-0fe6-4ef5-8661-d7e02b1eae6d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.283591 WARN: Could not remove task id=d2f43684-3a3e-49f2-9abb-446419f38605 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.283633 WARN: Could not remove task id=85ef7026-ce1d-4dac-a5ca-ca407eedffb0 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.287378 WARN: Could not remove task id=cd805369-08af-44aa-afcf-46035eba686f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.292128 WARN: Could not remove task id=ef2a79b1-96f8-48cf-90fc-10c9bc06a39c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.346649 WARN: Could not remove task id=c11ef8ee-fca5-43ef-b2a7-77e9ce7a8a89 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.349595 WARN: Could not remove task id=98e53a84-f8ea-447e-86fb-f50c87d897ff type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.357230 WARN: Could not remove task id=3458b823-03df-4d00-93c9-23cbb7b51c7f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.357883 WARN: Could not remove task id=e8befa16-1a8d-4920-8dee-0885573aa849 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.359628 WARN: Could not remove task id=b6714aba-ec32-433d-9607-7419b54c2669 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.369683 WARN: Could not remove task id=7b097a20-f46d-4983-ad01-220737251fda type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.373691 WARN: Could not remove task id=8952a392-a360-4672-bfc5-2641275137f3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.373182 WARN: Could not remove task id=d4669376-8cdc-4813-83bd-cbe927ba99d4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.374627 WARN: Could not remove task id=70e4b2cb-63d2-4471-9129-c5af6a952faf type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | asynq: pid=1 2025/07/25 12:34:07.376229 ERROR: Failed to forward scheduled tasks: INTERNAL_ERROR: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.376469 WARN: Could not remove task id=e51ceb8b-2574-4ab2-818d-a3fdeae1b515 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | 2025/07/25 12:34:07 Error retrieving health for default: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:07.523290 WARN: Could not remove task id=5008f03f-449c-408d-942e-25243b92712a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
-api01-1     | 2025/07/25 12:34:07 Error during leader election: i/o timeout
-api02-1     | 2025/07/25 12:34:07 Error retrieving health for default: i/o timeout
-api02-1     | 2025/07/25 12:34:07 Not the leader.
-api01-1     | 2025/07/25 12:34:08 Health check for fallback OK: {Failing:false MinResponseTime:5000}
-api01-1     | 2025/07/25 12:34:08 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:03:52 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:03:52 Not the leader.
+api01-1     | 2025/07/26 20:03:57 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:03:57 Health check for fallback OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:02 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:04:02 Not the leader.
+api01-1     | 2025/07/26 20:04:02 Health check for default OK: {Failing:false MinResponseTime:100}
+api01-1     | 2025/07/26 20:04:02 Health check for fallback OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:07 Health check for default OK: {Failing:false MinResponseTime:100}
+api01-1     | 2025/07/26 20:04:07 Health check for fallback OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:12 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:04:12 Not the leader.
+api01-1     | 2025/07/26 20:04:12 Health check for default OK: {Failing:true MinResponseTime:100}
+api01-1     | 2025/07/26 20:04:12 Health check for fallback OK: {Failing:false MinResponseTime:0}
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.983964 WARN: Could not remove task id=c1fadf66-6bb9-4673-b25b-9936d7ec0d4a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.984045 WARN: Could not remove task id=2171bba9-1815-4276-8e38-95665888ce47 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.984117 WARN: Could not remove task id=7149da73-7028-4e50-a29c-f29be94a1d56 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.984032 WARN: Could not remove task id=9b250051-71aa-4869-971c-af42b6f008cf type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.984061 WARN: Could not remove task id=dc73a81b-df59-4498-850c-a205eac7e0a5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.985489 WARN: Could not remove task id=c935049f-3716-4744-afb0-098d2c456d98 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.986295 WARN: Could not remove task id=e1f010fb-7e76-4613-a699-2d37fadc6960 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.986522 WARN: Could not remove task id=e93ca69f-238f-4dc0-85e3-683a629aeac0 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.986588 WARN: Could not remove task id=de54fa6e-6bf2-4199-8cad-9a389ee7e68c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.986683 WARN: Could not remove task id=4e38ac9a-0cb0-46a7-b8ca-05eaceefb7c4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.986806 WARN: Could not remove task id=b6495c29-35f7-47a9-978f-ec221e89e6cb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.986658 WARN: Could not remove task id=87a516b6-560a-4dcc-ac0e-124b747397bb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.988350 WARN: Could not remove task id=bdf3975a-80ac-43c4-abdd-18e52210e307 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.988582 WARN: Could not remove task id=00d701dc-166f-4b76-b133-16923aa875b7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.988623 WARN: Could not remove task id=3d2d0dcf-7885-462d-b4c2-045b2d060f32 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.988659 WARN: Could not remove task id=6a61cca3-c876-42fa-814a-afa439c54d45 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.988585 WARN: Could not remove task id=b6c0d7f2-c3ce-47a2-84dc-92b08bc3b0e7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.988701 WARN: Could not remove task id=65030e0f-810b-4edf-9c8c-3d587c22aa42 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.988717 WARN: Could not remove task id=9ea926b0-f3e0-460f-a410-735a7771a883 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989668 WARN: Could not remove task id=630bac52-85b1-4079-9c49-1eb722495c1e type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989882 WARN: Could not remove task id=a84c01de-db30-4009-88d1-46b3fe04ab51 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989905 WARN: Could not remove task id=a0cd3ce1-338e-483e-8c17-5c1a90e5710d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989917 WARN: Could not remove task id=0e092e74-4346-4729-8b71-94ea1e57fc71 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989961 WARN: Could not remove task id=28776e56-e7a7-43da-a1b4-59b65f6fe451 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.989980 WARN: Could not remove task id=992fd17c-3e8c-43a8-ad8d-84f16e751587 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.990040 WARN: Could not remove task id=245ea24c-c136-4341-8cbb-ab683db74253 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.990060 WARN: Could not remove task id=6de9ccdc-1d6b-4c3e-82d5-07b87390e5b9 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.990077 WARN: Could not remove task id=e52679d9-989c-406f-baa9-7d7bb0d11207 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:14.990109 WARN: Could not remove task id=e58f5b07-0b6a-418e-a0b6-9bd04db669e5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.990257 WARN: Could not remove task id=ffe5397f-1381-4b11-81d0-4470e995481f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.990297 WARN: Could not remove task id=7f7656ca-25a6-4139-b794-a84bf54bcc76 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.990342 WARN: Could not remove task id=981464ba-a51f-4594-9d38-4469e7d47b9d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:14.990362 WARN: Could not remove task id=d6d7333a-ad96-4b00-8eda-fb9094d83eb1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:15.081908 WARN: Could not remove task id=97b17fbe-32b2-456c-901b-82d93cc1dcd5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:15.082210 WARN: Could not remove task id=b6531ce2-87b3-482b-96eb-d424986562a8 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:15.082330 WARN: Could not remove task id=53732cb8-b261-40f4-bbe9-48d9882f5046 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.083956 WARN: Could not remove task id=e1ae020b-3290-4775-a5a9-e92975d2e03b type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:15.083976 WARN: Could not remove task id=daa19632-a760-49b8-8a97-83bf9752e523 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.084063 WARN: Could not remove task id=5340ee2b-d479-4c76-bbc3-12cce53513d7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.084082 WARN: Could not remove task id=a5035d1f-8f85-4c9f-bf5e-a2e676891454 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.084125 WARN: Could not remove task id=de23237b-e075-48d2-8c15-a6ef3ea6e8b3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.084138 WARN: Could not remove task id=3915ac2d-44df-43a2-8a95-e93fc9366639 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.084280 WARN: Could not remove task id=5e22d6d0-3f60-400d-a56e-ab92da5b57d3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.085544 WARN: Could not remove task id=40aa9ecf-d9be-4ac3-a950-4f15e0ce2e75 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.086020 WARN: Could not remove task id=9d35f06a-389d-4644-8295-2c1164da4ee3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:15.086050 WARN: Could not remove task id=71529aa7-84d3-4028-ae78-c5df8b64c998 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | 2025/07/26 20:04:17 Health check for default OK: {Failing:true MinResponseTime:100}
+api01-1     | 2025/07/26 20:04:17 Health check for fallback OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:22 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:04:22 Not the leader.
+api01-1     | 2025/07/26 20:04:22 Health check for fallback OK: {Failing:true MinResponseTime:1000}
+api01-1     | 2025/07/26 20:04:22 Health check for default OK: {Failing:true MinResponseTime:2000}
+api01-1     | 2025/07/26 20:04:27 Health check for fallback OK: {Failing:true MinResponseTime:1000}
+api01-1     | 2025/07/26 20:04:27 Health check for default OK: {Failing:true MinResponseTime:2000}
+api01-1     | 2025/07/26 20:04:32 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:04:32 Not the leader.
+api01-1     | 2025/07/26 20:04:32 Health check for default OK: {Failing:false MinResponseTime:20}
+api01-1     | 2025/07/26 20:04:32 Health check for fallback OK: {Failing:false MinResponseTime:20}
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.784145 WARN: Could not remove task id=8d3d443f-643a-4d7b-974b-7daba312b1fa type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.784155 WARN: Could not remove task id=3a01263d-df14-4a42-9062-b4d179eae34f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.784645 WARN: Could not remove task id=fb70157b-d8ec-440e-8c0c-e6b2943d30b6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.784684 WARN: Could not remove task id=d183964f-7c43-47c9-b5c8-f06fb6231916 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.784699 WARN: Could not remove task id=d713ab04-d7a9-4ce6-8e0d-12e9173f2bf8 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | 2025/07/26 20:04:33 Error retrieving health for fallback: i/o timeout
+api02-1     | 2025/07/26 20:04:33 Error retrieving health for default: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.846927 ERROR: Dequeue error: UNKNOWN: redis eval error: i/o timeout
+api01-1     | 2025/07/26 20:04:33 Error retrieving health for fallback: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.861491 WARN: Could not remove task id=2a4482f3-6e93-4d42-be50-51648bb49151 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.861332 WARN: Could not remove task id=e532f5f5-8993-444a-8a9b-3d117cc87da2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.863025 WARN: Could not remove task id=41ddc060-f9c0-4ea8-80ec-87c21f8807fa type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.865300 WARN: Could not remove task id=cfc757f3-8dca-42dd-b435-1ff2ecc546c7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.865624 WARN: Could not remove task id=717416e2-3197-4bbd-9879-a9e0576fe920 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.865693 WARN: Could not remove task id=fa2280e2-1008-4ac4-ba10-e2690998a9b4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.865928 WARN: Could not remove task id=0fc64253-2bff-4c39-be53-038a5b5813e4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.867342 WARN: Could not remove task id=9c73502f-1ad6-41a5-997c-ab40c0320226 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.867541 WARN: Could not remove task id=7652a28a-4b75-443a-91a1-ee3317814fc9 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.869958 WARN: Could not remove task id=54d5e102-a87c-4c24-bd39-0ed9afd79b16 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.869959 WARN: Could not remove task id=f100536d-b026-4b7b-a376-8ccbebd41201 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.870280 WARN: Could not remove task id=9a255d32-8b6a-4f74-ae2b-d139db6a7e6a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.872852 WARN: Could not remove task id=6dd95564-f0d9-4b51-9f5b-addd88f75bb1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.874988 WARN: Could not remove task id=b0431a92-50a9-4e0e-a60d-19d4c95209c5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.875049 WARN: Could not remove task id=001a9222-8fc3-4ad8-8591-e26b7cb05ab5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.875066 WARN: Could not remove task id=0c2a5f7f-c171-43f5-967f-b4b08ab74df5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.875520 WARN: Could not remove task id=a07191af-26f9-4392-9040-d6afb497963f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.877328 WARN: Could not remove task id=c598f0ae-6954-41f5-836b-5d5d893b2120 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.877178 WARN: Could not remove task id=5a220cde-e72f-4983-a707-405da8fcba02 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.877391 WARN: Could not remove task id=9bba2f01-bb5c-4773-aa6e-025543661c9a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.877890 WARN: Could not remove task id=03b99b9a-02a0-4ea0-bd5a-14d31d590252 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | asynq: pid=1 2025/07/26 20:04:33.881396 WARN: Could not remove task id=02102b67-8836-44c7-a42d-d6e228443785 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.882876 WARN: Could not remove task id=3a28c38c-b7d4-4f37-8f92-0f40e4e5d0e2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.884168 WARN: Could not remove task id=6ee0f61d-8d34-4803-8e0b-473663196f2c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.885744 WARN: Could not remove task id=d415a41e-3b96-46e3-8e66-fbaa05abdbdb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:33.885810 WARN: Could not remove task id=c1c77d42-93eb-4d34-bbe4-de6fd75ce7a7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout; Will retry syncing
+api01-1     | 2025/07/26 20:04:37 Health check for default OK: {Failing:false MinResponseTime:20}
+api01-1     | 2025/07/26 20:04:37 Health check for fallback OK: {Failing:false MinResponseTime:20}
+api02-1     | 2025/07/26 20:04:42 Not the leader.
+api01-1     | 2025/07/26 20:04:42 Acting as leader. Ensuring health checks are running.
+api01-1     | 2025/07/26 20:04:42 Health check for fallback OK: {Failing:false MinResponseTime:5000}
+api01-1     | 2025/07/26 20:04:42 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:47 Health check for fallback OK: {Failing:false MinResponseTime:5000}
+api01-1     | 2025/07/26 20:04:47 Health check for default OK: {Failing:false MinResponseTime:0}
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086677 WARN: Could not remove task id=fdedeb17-e6ba-4312-9904-322daaba04ca type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086741 WARN: Could not remove task id=6073659b-e93a-445a-86c5-7c73674cb625 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086825 WARN: Could not remove task id=5827d4aa-8f10-4fd1-9299-d4c2417984b3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086833 WARN: Could not remove task id=6cf70d73-9bd7-4d77-9dea-a576a1b7959a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086840 WARN: Could not remove task id=ffebb6eb-e380-47b7-a89d-43d7eeeccf02 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api02-1     | asynq: pid=1 2025/07/26 20:04:51.086642 WARN: Could not remove task id=ebab6bdb-f4df-40cf-bf76-188d72cf3e27 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND; Will retry syncing
+api01-1     | 2025/07/26 20:04:52 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:04:52 Not the leader.
+api01-1     | 2025/07/26 20:04:52 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:04:52 Health check for fallback OK: {Failing:false MinResponseTime:5000}
 [Knginx-1 exited with code 0
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.346363 INFO: Stopping processor
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.346697 INFO: Stopping processor
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.381997 INFO: Processor stopped
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.382006 INFO: Starting graceful shutdown
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.382010 INFO: Waiting for all workers to finish...
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.381989 INFO: Processor stopped
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.382002 INFO: Starting graceful shutdown
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.382006 INFO: Waiting for all workers to finish...
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.391923 INFO: All workers have finished
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.391991 ERROR: Could not remove task id=4f15168b-f0e3-4c58-833e-4aa0ca6980c1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392003 ERROR: Could not remove task id=4b2f9faa-62d6-4b6c-a7ef-e8d73c20c9b1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392007 ERROR: Could not remove task id=891c1da8-7065-4f03-a6a5-d42304e168d1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.391917 INFO: All workers have finished
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392011 ERROR: Could not remove task id=342a878a-9968-4678-8551-45aeb7ca60d9 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.391994 ERROR: Could not remove task id=f5a809a5-b787-4ea4-8aa5-b166405ae3b6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392014 ERROR: Could not remove task id=2229426b-ebb7-4036-b393-a47da273e3c5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392023 ERROR: Could not remove task id=deff0693-acd0-48ed-8a36-6f265b946890 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392030 ERROR: Could not remove task id=f76496ff-83cf-4477-aeea-a2f46eaba9a6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392037 ERROR: Could not remove task id=bf645186-ac3a-44ec-ac8c-78a875925326 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392045 ERROR: Could not remove task id=acbca5cc-5d91-48da-aa70-0bbd483803d1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392052 ERROR: Could not remove task id=33434e2d-72e8-454c-8d99-1b6f51c869ba type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392063 ERROR: Could not remove task id=c2d25951-e987-44f8-899b-7da44e429dfd type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392077 ERROR: Could not remove task id=702b3664-7def-4e70-8900-a218e024973a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392088 ERROR: Could not remove task id=492c3534-e565-4881-ba82-567088a31c72 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392102 ERROR: Could not remove task id=d2500a7e-9310-4418-8053-ef5c356c2c62 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392016 ERROR: Could not remove task id=dda8f4e0-94f3-47cb-a078-d9d42a8418a3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392021 ERROR: Could not remove task id=06f4d8c0-f0eb-46e3-aa20-f754955a9cb4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392027 ERROR: Could not remove task id=c7ee8f52-4b62-471c-8332-8cde8e4b3294 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392031 ERROR: Could not remove task id=fa236e40-49c3-4ba3-8c46-af81da686d5c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392036 ERROR: Could not remove task id=8991aff9-eb83-40f2-820a-9266a8a83ca3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392040 ERROR: Could not remove task id=4d102dd4-9d41-4b87-b914-11af6f2bfa16 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392044 ERROR: Could not remove task id=e94f4c0d-a5a4-4138-925b-a2443337169c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392047 ERROR: Could not remove task id=e998e36e-ba68-45e6-9b3d-d21e5e9abcce type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392051 ERROR: Could not remove task id=4a70ecd1-8b8e-4ae0-bb75-e7443e0787ef type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392054 ERROR: Could not remove task id=1e0a1abb-8c1f-4ca9-b790-5298125d4b1c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392058 ERROR: Could not remove task id=4054c3a0-a63f-4e5a-9ae8-af285a190346 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392062 ERROR: Could not remove task id=c78c77a7-f5b5-48e0-bcab-558ed44eb63b type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392066 ERROR: Could not remove task id=79d18869-73a3-40d8-8c57-aeeb7569481d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392070 ERROR: Could not remove task id=e5ea2f1d-6de0-496b-8cce-8b229df5c299 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392074 ERROR: Could not remove task id=36ccb276-9fe4-426e-9b13-5d64192d7598 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392077 ERROR: Could not remove task id=4bf03dad-be50-4b79-be92-819c353858e2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392081 ERROR: Could not remove task id=b4f8d828-d322-494d-9a98-f10b9ed6dfdf type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392110 ERROR: Could not remove task id=e8f3c463-829e-40b6-aa11-8c43d1c7b3ed type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392084 ERROR: Could not remove task id=d1025cbc-0fe6-4ef5-8661-d7e02b1eae6d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392087 ERROR: Could not remove task id=cd805369-08af-44aa-afcf-46035eba686f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392091 ERROR: Could not remove task id=ef2a79b1-96f8-48cf-90fc-10c9bc06a39c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392095 ERROR: Could not remove task id=c11ef8ee-fca5-43ef-b2a7-77e9ce7a8a89 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392098 ERROR: Could not remove task id=98e53a84-f8ea-447e-86fb-f50c87d897ff type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392102 ERROR: Could not remove task id=8952a392-a360-4672-bfc5-2641275137f3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392106 ERROR: Could not remove task id=70e4b2cb-63d2-4471-9129-c5af6a952faf type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392110 ERROR: Could not remove task id=e51ceb8b-2574-4ab2-818d-a3fdeae1b515 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392113 ERROR: Could not remove task id=5008f03f-449c-408d-942e-25243b92712a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api02-1     | asynq: pid=1 2025/07/25 12:34:12.392581 INFO: Exiting
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392118 ERROR: Could not remove task id=96b49485-067b-4ffe-b88d-839d8bd3c943 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392126 ERROR: Could not remove task id=3ca1ee02-4a77-479f-8d67-798631c3eb5d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392134 ERROR: Could not remove task id=d07c7661-cb6b-4b80-b7d8-32a916cf5f5c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392141 ERROR: Could not remove task id=76802505-9785-4e71-accf-ea711e58d12d type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392150 ERROR: Could not remove task id=200c5612-368d-4852-880b-574bef0bff04 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392165 ERROR: Could not remove task id=e6bc3bd7-24a3-427e-a090-2c72ea0eaad7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392173 ERROR: Could not remove task id=ade3ba73-d401-4c91-a10a-142d2a41086f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392180 ERROR: Could not remove task id=c2c93ca4-d763-46b6-bddd-dffb4ef940eb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392193 ERROR: Could not remove task id=e65a07e6-c9ea-4ade-917b-74e9f8f05790 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392199 ERROR: Could not remove task id=09557550-d8d7-4d64-a268-0ac142d77373 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392207 ERROR: Could not remove task id=f5a10519-b3df-4dd8-a383-7f88dd209128 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392215 ERROR: Could not remove task id=464c6349-d454-4a88-a5a2-4423af8ea2ef type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392228 ERROR: Could not remove task id=8561597b-6f43-4cd3-9ebf-788d56a93904 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392235 ERROR: Could not remove task id=d2f43684-3a3e-49f2-9abb-446419f38605 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392247 ERROR: Could not remove task id=85ef7026-ce1d-4dac-a5ca-ca407eedffb0 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392255 ERROR: Could not remove task id=3458b823-03df-4d00-93c9-23cbb7b51c7f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392265 ERROR: Could not remove task id=e8befa16-1a8d-4920-8dee-0885573aa849 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392271 ERROR: Could not remove task id=b6714aba-ec32-433d-9607-7419b54c2669 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392278 ERROR: Could not remove task id=7b097a20-f46d-4983-ad01-220737251fda type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392285 ERROR: Could not remove task id=d4669376-8cdc-4813-83bd-cbe927ba99d4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
-api01-1     | asynq: pid=1 2025/07/25 12:34:12.392717 INFO: Exiting
-api01-1     | 2025/07/25 12:34:13 Health check for default OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:34:13 Health check for fallback OK: {Failing:false MinResponseTime:5000}
-api01-1     | 2025/07/25 12:34:17 Acting as leader. Ensuring health checks are running.
-api02-1     | 2025/07/25 12:34:17 Not the leader.
-api01-1     | 2025/07/25 12:34:18 Health check for default OK: {Failing:false MinResponseTime:0}
-api01-1     | 2025/07/25 12:34:18 Health check for fallback OK: {Failing:false MinResponseTime:5000}
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.790842 INFO: Stopping processor
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.790995 INFO: Processor stopped
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.791001 INFO: Starting graceful shutdown
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.791006 INFO: Waiting for all workers to finish...
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.799346 INFO: Stopping processor
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.882994 INFO: Processor stopped
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.883294 INFO: Starting graceful shutdown
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.883305 INFO: Waiting for all workers to finish...
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982316 INFO: All workers have finished
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982384 ERROR: Could not remove task id=fb70157b-d8ec-440e-8c0c-e6b2943d30b6 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982397 ERROR: Could not remove task id=d183964f-7c43-47c9-b5c8-f06fb6231916 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982404 ERROR: Could not remove task id=d713ab04-d7a9-4ce6-8e0d-12e9173f2bf8 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982410 ERROR: Could not remove task id=e532f5f5-8993-444a-8a9b-3d117cc87da2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982416 ERROR: Could not remove task id=cfc757f3-8dca-42dd-b435-1ff2ecc546c7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982422 ERROR: Could not remove task id=0fc64253-2bff-4c39-be53-038a5b5813e4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982446 ERROR: Could not remove task id=7652a28a-4b75-443a-91a1-ee3317814fc9 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982457 ERROR: Could not remove task id=54d5e102-a87c-4c24-bd39-0ed9afd79b16 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982463 ERROR: Could not remove task id=f100536d-b026-4b7b-a376-8ccbebd41201 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982470 ERROR: Could not remove task id=9a255d32-8b6a-4f74-ae2b-d139db6a7e6a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982476 ERROR: Could not remove task id=b0431a92-50a9-4e0e-a60d-19d4c95209c5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982482 ERROR: Could not remove task id=001a9222-8fc3-4ad8-8591-e26b7cb05ab5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982489 ERROR: Could not remove task id=0c2a5f7f-c171-43f5-967f-b4b08ab74df5 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982495 ERROR: Could not remove task id=a07191af-26f9-4392-9040-d6afb497963f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982501 ERROR: Could not remove task id=5a220cde-e72f-4983-a707-405da8fcba02 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.982508 ERROR: Could not remove task id=02102b67-8836-44c7-a42d-d6e228443785 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api01-1     | asynq: pid=1 2025/07/26 20:04:53.983016 INFO: Exiting
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982286 INFO: All workers have finished
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982382 ERROR: Could not remove task id=8d3d443f-643a-4d7b-974b-7daba312b1fa type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982395 ERROR: Could not remove task id=3a01263d-df14-4a42-9062-b4d179eae34f type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982402 ERROR: Could not remove task id=2a4482f3-6e93-4d42-be50-51648bb49151 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982409 ERROR: Could not remove task id=41ddc060-f9c0-4ea8-80ec-87c21f8807fa type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982420 ERROR: Could not remove task id=717416e2-3197-4bbd-9879-a9e0576fe920 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982427 ERROR: Could not remove task id=fa2280e2-1008-4ac4-ba10-e2690998a9b4 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982451 ERROR: Could not remove task id=9c73502f-1ad6-41a5-997c-ab40c0320226 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982457 ERROR: Could not remove task id=6dd95564-f0d9-4b51-9f5b-addd88f75bb1 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982463 ERROR: Could not remove task id=c598f0ae-6954-41f5-836b-5d5d893b2120 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982470 ERROR: Could not remove task id=9bba2f01-bb5c-4773-aa6e-025543661c9a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982476 ERROR: Could not remove task id=03b99b9a-02a0-4ea0-bd5a-14d31d590252 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982482 ERROR: Could not remove task id=3a28c38c-b7d4-4f37-8f92-0f40e4e5d0e2 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982489 ERROR: Could not remove task id=6ee0f61d-8d34-4803-8e0b-473663196f2c type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982495 ERROR: Could not remove task id=d415a41e-3b96-46e3-8e66-fbaa05abdbdb type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982501 ERROR: Could not remove task id=c1c77d42-93eb-4d34-bbe4-de6fd75ce7a7 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: i/o timeout
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982508 ERROR: Could not remove task id=fdedeb17-e6ba-4312-9904-322daaba04ca type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982769 ERROR: Could not remove task id=6073659b-e93a-445a-86c5-7c73674cb625 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982784 ERROR: Could not remove task id=5827d4aa-8f10-4fd1-9299-d4c2417984b3 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982791 ERROR: Could not remove task id=6cf70d73-9bd7-4d77-9dea-a576a1b7959a type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982803 ERROR: Could not remove task id=ffebb6eb-e380-47b7-a89d-43d7eeeccf02 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.982811 ERROR: Could not remove task id=ebab6bdb-f4df-40cf-bf76-188d72cf3e27 type="payment:process" from "asynq:{default}:active" err: INTERNAL_ERROR: redis eval error: NOT FOUND
+api02-1     | asynq: pid=1 2025/07/26 20:04:53.983087 INFO: Exiting
+api01-1     | 2025/07/26 20:04:57 Health check for fallback OK: {Failing:false MinResponseTime:5000}
+api01-1     | 2025/07/26 20:04:57 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:05:02 Acting as leader. Ensuring health checks are running.
+api02-1     | 2025/07/26 20:05:02 Not the leader.
+api01-1     | 2025/07/26 20:05:02 Health check for default OK: {Failing:false MinResponseTime:0}
+api01-1     | 2025/07/26 20:05:02 Health check for fallback OK: {Failing:false MinResponseTime:5000}
 [Kapi01-1 exited with code 137
 [Kapi02-1 exited with code 137
-redis-1     | 1:signal-handler (1753446862) Received SIGTERM scheduling shutdown...
-redis-1     | 1:M 25 Jul 2025 12:34:23.004 * User requested shutdown...
-redis-1     | 1:M 25 Jul 2025 12:34:23.004 # Redis is now ready to exit, bye bye...
-postgres-1  | 2025-07-25 12:34:23.081 UTC [1] LOG:  received fast shutdown request
-postgres-1  | 2025-07-25 12:34:23.091 UTC [1] LOG:  aborting any active transactions
-postgres-1  | 2025-07-25 12:34:23.184 UTC [160] FATAL:  terminating connection due to administrator command
-postgres-1  | 2025-07-25 12:34:23.281 UTC [91] FATAL:  terminating connection due to administrator command
-postgres-1  | 2025-07-25 12:34:23.285 UTC [1] LOG:  background worker "logical replication launcher" (PID 82) exited with exit code 1
-postgres-1  | 2025-07-25 12:34:23.287 UTC [77] LOG:  shutting down
+redis-1     | 1:signal-handler (1753560304) Received SIGTERM scheduling shutdown...
+postgres-1  | 2025-07-26 20:05:04.585 UTC [1] LOG:  received fast shutdown request
+redis-1     | 1:M 26 Jul 2025 20:05:04.585 * User requested shutdown...
+redis-1     | 1:M 26 Jul 2025 20:05:04.585 # Redis is now ready to exit, bye bye...
+postgres-1  | 2025-07-26 20:05:04.781 UTC [1] LOG:  aborting any active transactions
+postgres-1  | 2025-07-26 20:05:04.785 UTC [1] LOG:  background worker "logical replication launcher" (PID 79) exited with exit code 1
 [Kredis-1 exited with code 0
-postgres-1  | 2025-07-25 12:34:23.313 UTC [77] LOG:  checkpoint starting: shutdown immediate
-postgres-1  | 2025-07-25 12:34:23.400 UTC [434] FATAL:  the database system is shutting down
-postgres-1  | 2025-07-25 12:34:23.555 UTC [77] LOG:  checkpoint complete: wrote 401 buffers (2.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.050 s, total=0.268 s; sync files=30, longest=0.042 s, average=0.002 s; distance=6079 kB, estimate=6079 kB; lsn=0/1F0D608, redo lsn=0/1F0D608
-postgres-1  | 2025-07-25 12:34:23.563 UTC [1] LOG:  database system is shut down
+postgres-1  | 2025-07-26 20:05:04.881 UTC [74] LOG:  shutting down
+postgres-1  | 2025-07-26 20:05:04.890 UTC [74] LOG:  checkpoint starting: shutdown immediate
+postgres-1  | 2025-07-26 20:05:04.989 UTC [417] FATAL:  the database system is shutting down
+postgres-1  | 2025-07-26 20:05:05.097 UTC [74] LOG:  checkpoint complete: wrote 422 buffers (2.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.037 s, sync=0.057 s, total=0.216 s; sync files=30, longest=0.049 s, average=0.002 s; distance=6670 kB, estimate=6670 kB; lsn=0/1FA1210, redo lsn=0/1FA1210
+postgres-1  | 2025-07-26 20:05:05.108 UTC [1] LOG:  database system is shut down
 [Kpostgres-1 exited with code 0
 log truncated at line 1000
