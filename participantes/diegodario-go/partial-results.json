@@ -1,12 +1,12 @@
 {
   "participante": "diegodario-go",
-  "total_liquido": 333810.361,
+  "total_liquido": 361876.326,
   "total_bruto": 333285.2,
-  "total_taxas": 21312.9,
+  "total_taxas": 21322.85,
   "descricao": "'total_liquido' é sua pontuação final. Equivale ao seu lucro. Fórmula: total_liquido + (total_liquido * p99.bonus) - (total_liquido * multa.porcentagem)",
   "p99": {
-    "valor": "7.28ms",
-    "bonus": 0.07,
+    "valor": "2.84ms",
+    "bonus": "16%",
     "max_requests": "550",
     "descricao": "Fórmula para o bônus: max((11 - p99.valor) * 0.02, 0)"
   },
@@ -14,8 +14,8 @@
     "porcentagem": 0,
     "total": 0,
     "composicao": {
-      "total_inconsistencias": 0,
-      "descricao": "Se 'total_inconsistencias' > 0, há multa de 35%."
+      "num_inconsistencias": 0,
+      "descricao": "Se 'num_inconsistencias' > 0, há multa de 35%."
     }
   },
   "caixa_dois": {
@@ -34,15 +34,15 @@
     "descricao": "'qtd_sucesso' foram requests bem sucedidos para 'POST /payments' e 'qtd_falha' os requests com erro."
   },
   "pagamentos_realizados_default": {
-    "total_bruto": 286798.8,
-    "num_pagamentos": 14412,
-    "total_taxas": 14339.94,
+    "total_bruto": 286699.3,
+    "num_pagamentos": 14407,
+    "total_taxas": 14334.965,
     "descricao": "Informações do backend sobre solicitações de pagamento para o Payment Processor Default."
   },
   "pagamentos_realizados_fallback": {
-    "total_bruto": 46486.4,
-    "num_pagamentos": 2336,
-    "total_taxas": 6972.96,
+    "total_bruto": 46585.9,
+    "num_pagamentos": 2341,
+    "total_taxas": 6987.885,
     "descricao": "Informações do backend sobre solicitações de pagamento para o Payment Processor Fallback."
   }
 }
